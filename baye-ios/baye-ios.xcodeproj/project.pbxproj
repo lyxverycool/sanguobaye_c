@@ -1,0 +1,935 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		140939091F07436100802015 /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = 140939081F07436100802015 /* version.c */; };
+		1409390A1F07436100802015 /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = 140939081F07436100802015 /* version.c */; };
+		141D69461D8CD137000F772D /* data-bind.c in Sources */ = {isa = PBXBuildFile; fileRef = 141D69451D8CD137000F772D /* data-bind.c */; };
+		141D69471D8CD137000F772D /* data-bind.c in Sources */ = {isa = PBXBuildFile; fileRef = 141D69451D8CD137000F772D /* data-bind.c */; };
+		141D694B1D8CD1E9000F772D /* bind-objects.c in Sources */ = {isa = PBXBuildFile; fileRef = 141D69491D8CD1E9000F772D /* bind-objects.c */; };
+		141D694C1D8CD1E9000F772D /* bind-objects.c in Sources */ = {isa = PBXBuildFile; fileRef = 141D69491D8CD1E9000F772D /* bind-objects.c */; };
+		141D69541D9EABA6000F772D /* dummy-script.c in Sources */ = {isa = PBXBuildFile; fileRef = 141D69531D9EABA6000F772D /* dummy-script.c */; };
+		141D69551D9EABA6000F772D /* dummy-script.c in Sources */ = {isa = PBXBuildFile; fileRef = 141D69531D9EABA6000F772D /* dummy-script.c */; };
+		141D69581DA250D6000F772D /* touch.c in Sources */ = {isa = PBXBuildFile; fileRef = 141D69561DA250D6000F772D /* touch.c */; };
+		141D69591DA250D6000F772D /* touch.c in Sources */ = {isa = PBXBuildFile; fileRef = 141D69561DA250D6000F772D /* touch.c */; };
+		141D695C1DA25C9A000F772D /* baye-wrapper-mac.c in Sources */ = {isa = PBXBuildFile; fileRef = 141D695A1DA25C9A000F772D /* baye-wrapper-mac.c */; };
+		142D1CE61D22A3BA00CA443B /* bios.c in Sources */ = {isa = PBXBuildFile; fileRef = 142D1CE41D22A3BA00CA443B /* bios.c */; };
+		142D1CE71D22A3BA00CA443B /* sys.c in Sources */ = {isa = PBXBuildFile; fileRef = 142D1CE51D22A3BA00CA443B /* sys.c */; };
+		142D1CEE1D22B82800CA443B /* gui.c in Sources */ = {isa = PBXBuildFile; fileRef = 142D1CED1D22B82800CA443B /* gui.c */; };
+		143747511B7E67C900939571 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 143747501B7E67C900939571 /* AppDelegate.m */; };
+		143747561B7E67C900939571 /* MacViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143747551B7E67C900939571 /* MacViewController.m */; };
+		143747581B7E67C900939571 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 143747571B7E67C900939571 /* Images.xcassets */; };
+		1437475B1B7E67C900939571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 143747591B7E67C900939571 /* Main.storyboard */; };
+		1437476E1B7E68C300939571 /* fsys.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A9AA1B7B79D10085EC83 /* fsys.c */; };
+		143747701B7E68C300939571 /* sem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1437473C1B7CBC2300939571 /* sem.m */; };
+		143747891B7E68C300939571 /* citycmd.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A95F1B7B6F1F0085EC83 /* citycmd.c */; };
+		1437478A1B7E68C300939571 /* citycmdb.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A9601B7B6F1F0085EC83 /* citycmdb.c */; };
+		1437478B1B7E68C300939571 /* citycmdc.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A9611B7B6F1F0085EC83 /* citycmdc.c */; };
+		1437478C1B7E68C300939571 /* citycmdd.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A9621B7B6F1F0085EC83 /* citycmdd.c */; };
+		1437478D1B7E68C300939571 /* citycmde.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A9631B7B6F1F0085EC83 /* citycmde.c */; };
+		1437478E1B7E68C300939571 /* cityedit.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A9641B7B6F1F0085EC83 /* cityedit.c */; };
+		1437478F1B7E68C300939571 /* comIn.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A9651B7B6F1F0085EC83 /* comIn.c */; };
+		143747901B7E68C300939571 /* comOut.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A9661B7B6F1F0085EC83 /* comOut.c */; };
+		143747931B7E68C300939571 /* datman.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A96A1B7B6F1F0085EC83 /* datman.c */; };
+		143747941B7E68C300939571 /* debug.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A96B1B7B6F1F0085EC83 /* debug.c */; };
+		143747951B7E68C300939571 /* FgtCount.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A96C1B7B6F1F0085EC83 /* FgtCount.c */; };
+		143747961B7E68C300939571 /* FgtPkAi.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A96D1B7B6F1F0085EC83 /* FgtPkAi.c */; };
+		143747971B7E68C300939571 /* Fight.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A96E1B7B6F1F0085EC83 /* Fight.c */; };
+		143747981B7E68C300939571 /* FightSub.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A96F1B7B6F1F0085EC83 /* FightSub.c */; };
+		1437479A1B7E68C300939571 /* gamEng.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A9711B7B6F1F0085EC83 /* gamEng.c */; };
+		143747A91B7E68C300939571 /* infdeal.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A9811B7B6F1F0085EC83 /* infdeal.c */; };
+		143747AB1B7E68C300939571 /* paccount.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A9831B7B6F1F0085EC83 /* paccount.c */; };
+		143747AF1B7E68C300939571 /* PublicFun.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A9871B7B6F1F0085EC83 /* PublicFun.c */; };
+		143747B01B7E68C300939571 /* showface.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A9881B7B6F1F0085EC83 /* showface.c */; };
+		143747B11B7E68C300939571 /* Size.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A9891B7B6F1F0085EC83 /* Size.c */; };
+		143747B21B7E68C300939571 /* strcnt.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A98A1B7B6F1F0085EC83 /* strcnt.c */; };
+		143747B31B7E68C300939571 /* tactic.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A98B1B7B6F1F0085EC83 /* tactic.c */; };
+		143747B41B7E68C300939571 /* varma.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A98C1B7B6F1F0085EC83 /* varma.c */; };
+		143747B51B7E68C300939571 /* itoa.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A9B01B7BA09C0085EC83 /* itoa.c */; };
+		143747BA1B7E808700939571 /* timer.m in Sources */ = {isa = PBXBuildFile; fileRef = 143747B71B7E7AFB00939571 /* timer.m */; };
+		1455A6011D37B538005780D7 /* config.c in Sources */ = {isa = PBXBuildFile; fileRef = 1455A6001D37B538005780D7 /* config.c */; };
+		1455A6021D37B538005780D7 /* config.c in Sources */ = {isa = PBXBuildFile; fileRef = 1455A6001D37B538005780D7 /* config.c */; };
+		14585C751D26C04F00DCE3BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 143747521B7E67C900939571 /* main.m */; };
+		14585C761D26CA8700DCE3BA /* gui.c in Sources */ = {isa = PBXBuildFile; fileRef = 142D1CED1D22B82800CA443B /* gui.c */; };
+		14585C771D26CA8A00DCE3BA /* bios.c in Sources */ = {isa = PBXBuildFile; fileRef = 142D1CE41D22A3BA00CA443B /* bios.c */; };
+		14585C781D26CA8D00DCE3BA /* sys.c in Sources */ = {isa = PBXBuildFile; fileRef = 142D1CE51D22A3BA00CA443B /* sys.c */; };
+		148718631B7F821B00AC88EB /* LCDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 148718621B7F821B00AC88EB /* LCDView.m */; };
+		1487186D1B7FB0C000AC88EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1487186C1B7FB0C000AC88EB /* main.m */; };
+		148718701B7FB0C000AC88EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1487186F1B7FB0C000AC88EB /* AppDelegate.m */; };
+		148718731B7FB0C000AC88EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 148718721B7FB0C000AC88EB /* ViewController.m */; };
+		148718761B7FB0C000AC88EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 148718741B7FB0C000AC88EB /* Main.storyboard */; };
+		148718781B7FB0C000AC88EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148718771B7FB0C000AC88EB /* Images.xcassets */; };
+		148718901B7FB47600AC88EB /* GamLCDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1487188F1B7FB47600AC88EB /* GamLCDView.m */; };
+		148718911B7FB87D00AC88EB /* fsys.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A9AA1B7B79D10085EC83 /* fsys.c */; };
+		148718931B7FB87D00AC88EB /* sem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1437473C1B7CBC2300939571 /* sem.m */; };
+		148718971B7FB87D00AC88EB /* timer.m in Sources */ = {isa = PBXBuildFile; fileRef = 143747B71B7E7AFB00939571 /* timer.m */; };
+		148718AD1B7FB87D00AC88EB /* citycmd.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A95F1B7B6F1F0085EC83 /* citycmd.c */; };
+		148718AE1B7FB87D00AC88EB /* citycmdb.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A9601B7B6F1F0085EC83 /* citycmdb.c */; };
+		148718AF1B7FB87D00AC88EB /* citycmdc.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A9611B7B6F1F0085EC83 /* citycmdc.c */; };
+		148718B01B7FB87D00AC88EB /* citycmdd.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A9621B7B6F1F0085EC83 /* citycmdd.c */; };
+		148718B11B7FB87D00AC88EB /* citycmde.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A9631B7B6F1F0085EC83 /* citycmde.c */; };
+		148718B21B7FB87D00AC88EB /* cityedit.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A9641B7B6F1F0085EC83 /* cityedit.c */; };
+		148718B31B7FB87D00AC88EB /* comIn.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A9651B7B6F1F0085EC83 /* comIn.c */; };
+		148718B41B7FB87D00AC88EB /* comOut.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A9661B7B6F1F0085EC83 /* comOut.c */; };
+		148718B71B7FB87D00AC88EB /* datman.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A96A1B7B6F1F0085EC83 /* datman.c */; };
+		148718B81B7FB87D00AC88EB /* debug.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A96B1B7B6F1F0085EC83 /* debug.c */; };
+		148718B91B7FB87D00AC88EB /* FgtCount.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A96C1B7B6F1F0085EC83 /* FgtCount.c */; };
+		148718BA1B7FB87D00AC88EB /* FgtPkAi.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A96D1B7B6F1F0085EC83 /* FgtPkAi.c */; };
+		148718BB1B7FB87D00AC88EB /* Fight.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A96E1B7B6F1F0085EC83 /* Fight.c */; };
+		148718BC1B7FB87D00AC88EB /* FightSub.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A96F1B7B6F1F0085EC83 /* FightSub.c */; };
+		148718BE1B7FB87D00AC88EB /* gamEng.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A9711B7B6F1F0085EC83 /* gamEng.c */; };
+		148718CD1B7FB87D00AC88EB /* infdeal.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A9811B7B6F1F0085EC83 /* infdeal.c */; };
+		148718CE1B7FB87D00AC88EB /* paccount.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A9831B7B6F1F0085EC83 /* paccount.c */; };
+		148718D01B7FB87D00AC88EB /* PublicFun.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A9871B7B6F1F0085EC83 /* PublicFun.c */; };
+		148718D11B7FB87D00AC88EB /* showface.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A9881B7B6F1F0085EC83 /* showface.c */; };
+		148718D21B7FB87D00AC88EB /* Size.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A9891B7B6F1F0085EC83 /* Size.c */; };
+		148718D31B7FB87D00AC88EB /* strcnt.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A98A1B7B6F1F0085EC83 /* strcnt.c */; };
+		148718D41B7FB87D00AC88EB /* tactic.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A98B1B7B6F1F0085EC83 /* tactic.c */; };
+		148718D51B7FB87D00AC88EB /* varma.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A98C1B7B6F1F0085EC83 /* varma.c */; };
+		148718D61B7FB87D00AC88EB /* itoa.c in Sources */ = {isa = PBXBuildFile; fileRef = 1444A9B01B7BA09C0085EC83 /* itoa.c */; };
+		148718DC1B803BE100AC88EB /* font.bin in Resources */ = {isa = PBXBuildFile; fileRef = 148718DA1B803BE100AC88EB /* font.bin */; };
+		14CEE7761DD2037300191612 /* sys-ios.c in Sources */ = {isa = PBXBuildFile; fileRef = 14CEE7751DD2037300191612 /* sys-ios.c */; };
+		14CEE7771DD2037300191612 /* sys-ios.c in Sources */ = {isa = PBXBuildFile; fileRef = 14CEE7751DD2037300191612 /* sys-ios.c */; };
+		14E568F21B8494C800CAE666 /* GamTouchPadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E568F11B8494C800CAE666 /* GamTouchPadView.m */; };
+		14E568F41B84A10800CAE666 /* font.bin in Resources */ = {isa = PBXBuildFile; fileRef = 148718DA1B803BE100AC88EB /* font.bin */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		140939081F07436100802015 /* version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = version.c; sourceTree = "<group>"; };
+		141D69451D8CD137000F772D /* data-bind.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "data-bind.c"; sourceTree = "<group>"; };
+		141D69481D8CD17F000F772D /* data-bind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "data-bind.h"; sourceTree = "<group>"; };
+		141D69491D8CD1E9000F772D /* bind-objects.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; lineEnding = 0; path = "bind-objects.c"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.c; };
+		141D694D1D8CD20D000F772D /* bind-objects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bind-objects.h"; sourceTree = "<group>"; };
+		141D694E1D8D3191000F772D /* script.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = script.c; sourceTree = "<group>"; };
+		141D69521D8D3260000F772D /* script.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = script.h; sourceTree = "<group>"; };
+		141D69531D9EABA6000F772D /* dummy-script.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "dummy-script.c"; sourceTree = "<group>"; };
+		141D69561DA250D6000F772D /* touch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = touch.c; sourceTree = "<group>"; };
+		141D69571DA250D6000F772D /* touch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = touch.h; sourceTree = "<group>"; };
+		141D695A1DA25C9A000F772D /* baye-wrapper-mac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "baye-wrapper-mac.c"; sourceTree = "<group>"; };
+		141D695B1DA25C9A000F772D /* baye-wrapper-mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "baye-wrapper-mac.h"; sourceTree = "<group>"; };
+		142D1C191D21897600CA443B /* itoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = itoa.h; sourceTree = "<group>"; };
+		142D1C1B1D21899000CA443B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		142D1CE41D22A3BA00CA443B /* bios.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bios.c; sourceTree = "<group>"; };
+		142D1CE51D22A3BA00CA443B /* sys.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sys.c; sourceTree = "<group>"; };
+		142D1CE91D22A3CC00CA443B /* fsys.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fsys.c; sourceTree = "<group>"; };
+		142D1CEC1D22A3CC00CA443B /* timer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = timer.c; sourceTree = "<group>"; };
+		142D1CED1D22B82800CA443B /* gui.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gui.c; sourceTree = "<group>"; };
+		142D1CF01D22B83200CA443B /* sem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sem.c; sourceTree = "<group>"; };
+		142D1CF21D22B87800CA443B /* sem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sem.h; sourceTree = "<group>"; };
+		142D1CF31D22B87800CA443B /* timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timer.h; sourceTree = "<group>"; };
+		142D1CF41D23459100CA443B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		1437473C1B7CBC2300939571 /* sem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sem.m; sourceTree = "<group>"; };
+		1437474B1B7E67C900939571 /* Baye-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Baye-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1437474E1B7E67C900939571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1437474F1B7E67C900939571 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		143747501B7E67C900939571 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		143747521B7E67C900939571 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		143747541B7E67C900939571 /* MacViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacViewController.h; sourceTree = "<group>"; };
+		143747551B7E67C900939571 /* MacViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacViewController.m; sourceTree = "<group>"; };
+		143747571B7E67C900939571 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1437475A1B7E67C900939571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		143747B71B7E7AFB00939571 /* timer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = timer.m; sourceTree = "<group>"; };
+		1444A94B1B7B6F1F0085EC83 /* attribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = attribute.h; sourceTree = "<group>"; };
+		1444A94C1B7B6F1F0085EC83 /* comm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = comm.h; sourceTree = "<group>"; };
+		1444A94D1B7B6F1F0085EC83 /* compa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compa.h; sourceTree = "<group>"; };
+		1444A94E1B7B6F1F0085EC83 /* consdef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = consdef.h; sourceTree = "<group>"; };
+		1444A94F1B7B6F1F0085EC83 /* datman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = datman.h; sourceTree = "<group>"; };
+		1444A9501B7B6F1F0085EC83 /* enghead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enghead.h; sourceTree = "<group>"; };
+		1444A9511B7B6F1F0085EC83 /* errcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errcode.h; sourceTree = "<group>"; };
+		1444A9521B7B6F1F0085EC83 /* extern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = extern.h; sourceTree = "<group>"; };
+		1444A9531B7B6F1F0085EC83 /* fight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fight.h; sourceTree = "<group>"; };
+		1444A9541B7B6F1F0085EC83 /* fsys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fsys.h; sourceTree = "<group>"; };
+		1444A9551B7B6F1F0085EC83 /* fundec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fundec.h; sourceTree = "<group>"; };
+		1444A9561B7B6F1F0085EC83 /* fundef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fundef.h; sourceTree = "<group>"; };
+		1444A9571B7B6F1F0085EC83 /* graph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graph.h; sourceTree = "<group>"; };
+		1444A9581B7B6F1F0085EC83 /* order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = order.h; sourceTree = "<group>"; };
+		1444A9591B7B6F1F0085EC83 /* paccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = paccount.h; sourceTree = "<group>"; };
+		1444A95A1B7B6F1F0085EC83 /* resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resource.h; sourceTree = "<group>"; };
+		1444A95B1B7B6F1F0085EC83 /* sconst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sconst.h; sourceTree = "<group>"; };
+		1444A95C1B7B6F1F0085EC83 /* sharefun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sharefun.h; sourceTree = "<group>"; };
+		1444A95D1B7B6F1F0085EC83 /* sources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sources.h; sourceTree = "<group>"; };
+		1444A95E1B7B6F1F0085EC83 /* stdsys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdsys.h; sourceTree = "<group>"; };
+		1444A95F1B7B6F1F0085EC83 /* citycmd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; lineEnding = 0; path = citycmd.c; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.c; };
+		1444A9601B7B6F1F0085EC83 /* citycmdb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = citycmdb.c; sourceTree = "<group>"; };
+		1444A9611B7B6F1F0085EC83 /* citycmdc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = citycmdc.c; sourceTree = "<group>"; };
+		1444A9621B7B6F1F0085EC83 /* citycmdd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = citycmdd.c; sourceTree = "<group>"; };
+		1444A9631B7B6F1F0085EC83 /* citycmde.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = citycmde.c; sourceTree = "<group>"; };
+		1444A9641B7B6F1F0085EC83 /* cityedit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; lineEnding = 0; path = cityedit.c; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.c; };
+		1444A9651B7B6F1F0085EC83 /* comIn.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = comIn.c; sourceTree = "<group>"; };
+		1444A9661B7B6F1F0085EC83 /* comOut.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = comOut.c; sourceTree = "<group>"; };
+		1444A9681B7B6F1F0085EC83 /* pconst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pconst.h; sourceTree = "<group>"; };
+		1444A9691B7B6F1F0085EC83 /* pstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pstring.h; sourceTree = "<group>"; };
+		1444A96A1B7B6F1F0085EC83 /* datman.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = datman.c; sourceTree = "<group>"; };
+		1444A96B1B7B6F1F0085EC83 /* debug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = debug.c; sourceTree = "<group>"; };
+		1444A96C1B7B6F1F0085EC83 /* FgtCount.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; lineEnding = 0; path = FgtCount.c; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.c; };
+		1444A96D1B7B6F1F0085EC83 /* FgtPkAi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FgtPkAi.c; sourceTree = "<group>"; };
+		1444A96E1B7B6F1F0085EC83 /* Fight.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Fight.c; sourceTree = "<group>"; };
+		1444A96F1B7B6F1F0085EC83 /* FightSub.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FightSub.c; sourceTree = "<group>"; };
+		1444A9701B7B6F1F0085EC83 /* fsys.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fsys.c; sourceTree = "<group>"; };
+		1444A9711B7B6F1F0085EC83 /* gamEng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; lineEnding = 0; path = gamEng.c; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.c; };
+		1444A9721B7B6F1F0085EC83 /* Gamhzk.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = Gamhzk.bin; sourceTree = "<group>"; };
+		1444A9741B7B6F1F0085EC83 /* ADDR.H */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ADDR.H; sourceTree = "<group>"; };
+		1444A9751B7B6F1F0085EC83 /* DictAfx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictAfx.h; sourceTree = "<group>"; };
+		1444A9761B7B6F1F0085EC83 /* DictHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictHelp.h; sourceTree = "<group>"; };
+		1444A9771B7B6F1F0085EC83 /* dictsys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dictsys.h; sourceTree = "<group>"; };
+		1444A9781B7B6F1F0085EC83 /* filetype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filetype.h; sourceTree = "<group>"; };
+		1444A9791B7B6F1F0085EC83 /* flash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flash.h; sourceTree = "<group>"; };
+		1444A97A1B7B6F1F0085EC83 /* fsys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fsys.h; sourceTree = "<group>"; };
+		1444A97B1B7B6F1F0085EC83 /* GuiEdit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuiEdit.h; sourceTree = "<group>"; };
+		1444A97C1B7B6F1F0085EC83 /* keytable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keytable.h; sourceTree = "<group>"; };
+		1444A97D1B7B6F1F0085EC83 /* MEM.H */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MEM.H; sourceTree = "<group>"; };
+		1444A97E1B7B6F1F0085EC83 /* shell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shell.h; sourceTree = "<group>"; };
+		1444A97F1B7B6F1F0085EC83 /* STDLIB.H */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = STDLIB.H; sourceTree = "<group>"; };
+		1444A9801B7B6F1F0085EC83 /* SysResv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SysResv.h; sourceTree = "<group>"; };
+		1444A9811B7B6F1F0085EC83 /* infdeal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; lineEnding = 0; path = infdeal.c; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.c; };
+		1444A9831B7B6F1F0085EC83 /* paccount.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = paccount.c; sourceTree = "<group>"; };
+		1444A9871B7B6F1F0085EC83 /* PublicFun.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PublicFun.c; sourceTree = "<group>"; };
+		1444A9881B7B6F1F0085EC83 /* showface.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = showface.c; sourceTree = "<group>"; };
+		1444A9891B7B6F1F0085EC83 /* Size.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Size.c; sourceTree = "<group>"; };
+		1444A98A1B7B6F1F0085EC83 /* strcnt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strcnt.c; sourceTree = "<group>"; };
+		1444A98B1B7B6F1F0085EC83 /* tactic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; lineEnding = 0; path = tactic.c; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.c; };
+		1444A98C1B7B6F1F0085EC83 /* varma.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = varma.c; sourceTree = "<group>"; };
+		1444A9AA1B7B79D10085EC83 /* fsys.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fsys.c; sourceTree = "<group>"; };
+		1444A9B01B7BA09C0085EC83 /* itoa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = itoa.c; sourceTree = "<group>"; };
+		1455A6001D37B538005780D7 /* config.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = config.c; sourceTree = "<group>"; };
+		14585C731D26BF9C00DCE3BA /* Baye-iOS copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Baye-iOS copy-Info.plist"; path = "/Users/loong/l/lab/oc/iBaye/baye-ios/Baye-iOS copy-Info.plist"; sourceTree = "<absolute>"; };
+		148718611B7F821B00AC88EB /* LCDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCDView.h; sourceTree = "<group>"; };
+		148718621B7F821B00AC88EB /* LCDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCDView.m; sourceTree = "<group>"; };
+		148718681B7FB0C000AC88EB /* Baye-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Baye-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1487186B1B7FB0C000AC88EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1487186C1B7FB0C000AC88EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1487186E1B7FB0C000AC88EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1487186F1B7FB0C000AC88EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		148718711B7FB0C000AC88EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		148718721B7FB0C000AC88EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		148718751B7FB0C000AC88EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		148718771B7FB0C000AC88EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1487188E1B7FB47600AC88EB /* GamLCDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamLCDView.h; sourceTree = "<group>"; };
+		1487188F1B7FB47600AC88EB /* GamLCDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamLCDView.m; sourceTree = "<group>"; };
+		148718D81B801C8100AC88EB /* pconst.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pconst.c; sourceTree = "<group>"; };
+		148718DA1B803BE100AC88EB /* font.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = font.bin; sourceTree = "<group>"; };
+		1494DE351DE19EBB004C2DE2 /* exportjs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = exportjs.c; sourceTree = "<group>"; };
+		14CEE7751DD2037300191612 /* sys-ios.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "sys-ios.c"; sourceTree = "<group>"; };
+		14CEE7781DD203B500191612 /* sys-js.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "sys-js.c"; sourceTree = "<group>"; };
+		14E568F01B8494C800CAE666 /* GamTouchPadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamTouchPadView.h; sourceTree = "<group>"; };
+		14E568F11B8494C800CAE666 /* GamTouchPadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamTouchPadView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		143747481B7E67C900939571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148718651B7FB0C000AC88EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		142D1CE31D22A3BA00CA443B /* common */ = {
+			isa = PBXGroup;
+			children = (
+				142D1CF21D22B87800CA443B /* sem.h */,
+				142D1CF31D22B87800CA443B /* timer.h */,
+				142D1CED1D22B82800CA443B /* gui.c */,
+				142D1CE41D22A3BA00CA443B /* bios.c */,
+				142D1CE51D22A3BA00CA443B /* sys.c */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		142D1CE81D22A3CC00CA443B /* js */ = {
+			isa = PBXGroup;
+			children = (
+				1494DE351DE19EBB004C2DE2 /* exportjs.c */,
+				142D1CF01D22B83200CA443B /* sem.c */,
+				142D1CE91D22A3CC00CA443B /* fsys.c */,
+				142D1CEC1D22A3CC00CA443B /* timer.c */,
+				142D1CF41D23459100CA443B /* main.c */,
+				141D694E1D8D3191000F772D /* script.c */,
+				14CEE7781DD203B500191612 /* sys-js.c */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		1437474C1B7E67C900939571 /* Baye-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				1437474F1B7E67C900939571 /* AppDelegate.h */,
+				143747501B7E67C900939571 /* AppDelegate.m */,
+				143747541B7E67C900939571 /* MacViewController.h */,
+				143747551B7E67C900939571 /* MacViewController.m */,
+				148718611B7F821B00AC88EB /* LCDView.h */,
+				148718621B7F821B00AC88EB /* LCDView.m */,
+				143747571B7E67C900939571 /* Images.xcassets */,
+				143747591B7E67C900939571 /* Main.storyboard */,
+				1437474D1B7E67C900939571 /* Supporting Files */,
+				141D695A1DA25C9A000F772D /* baye-wrapper-mac.c */,
+				141D695B1DA25C9A000F772D /* baye-wrapper-mac.h */,
+			);
+			name = "Baye-Mac";
+			path = Baye;
+			sourceTree = "<group>";
+		};
+		1437474D1B7E67C900939571 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1437474E1B7E67C900939571 /* Info.plist */,
+				143747521B7E67C900939571 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1444A9361B7B6EE60085EC83 = {
+			isa = PBXGroup;
+			children = (
+				1444A9491B7B6F1F0085EC83 /* src */,
+				1437474C1B7E67C900939571 /* Baye-Mac */,
+				148718691B7FB0C000AC88EB /* Baye-iOS */,
+				1444A9421B7B6EFE0085EC83 /* Products */,
+				14585C731D26BF9C00DCE3BA /* Baye-iOS copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		1444A9421B7B6EFE0085EC83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1437474B1B7E67C900939571 /* Baye-Mac.app */,
+				148718681B7FB0C000AC88EB /* Baye-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1444A9491B7B6F1F0085EC83 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				142D1C1B1D21899000CA443B /* main.c */,
+				148718DA1B803BE100AC88EB /* font.bin */,
+				148718D81B801C8100AC88EB /* pconst.c */,
+				1444A9A81B7B79D10085EC83 /* platform */,
+				1444A94A1B7B6F1F0085EC83 /* baye */,
+				1444A95F1B7B6F1F0085EC83 /* citycmd.c */,
+				1444A9601B7B6F1F0085EC83 /* citycmdb.c */,
+				1444A9611B7B6F1F0085EC83 /* citycmdc.c */,
+				1444A9621B7B6F1F0085EC83 /* citycmdd.c */,
+				1444A9631B7B6F1F0085EC83 /* citycmde.c */,
+				1444A9641B7B6F1F0085EC83 /* cityedit.c */,
+				1444A9651B7B6F1F0085EC83 /* comIn.c */,
+				1444A9661B7B6F1F0085EC83 /* comOut.c */,
+				1444A9671B7B6F1F0085EC83 /* data */,
+				1444A96A1B7B6F1F0085EC83 /* datman.c */,
+				141D69451D8CD137000F772D /* data-bind.c */,
+				1444A96B1B7B6F1F0085EC83 /* debug.c */,
+				1444A96C1B7B6F1F0085EC83 /* FgtCount.c */,
+				141D69491D8CD1E9000F772D /* bind-objects.c */,
+				140939081F07436100802015 /* version.c */,
+				1444A96D1B7B6F1F0085EC83 /* FgtPkAi.c */,
+				1444A96E1B7B6F1F0085EC83 /* Fight.c */,
+				1444A96F1B7B6F1F0085EC83 /* FightSub.c */,
+				1444A9701B7B6F1F0085EC83 /* fsys.c */,
+				1444A9711B7B6F1F0085EC83 /* gamEng.c */,
+				1444A9721B7B6F1F0085EC83 /* Gamhzk.bin */,
+				1444A9731B7B6F1F0085EC83 /* inc */,
+				1444A9811B7B6F1F0085EC83 /* infdeal.c */,
+				1444A9831B7B6F1F0085EC83 /* paccount.c */,
+				1444A9871B7B6F1F0085EC83 /* PublicFun.c */,
+				1444A9881B7B6F1F0085EC83 /* showface.c */,
+				1444A9891B7B6F1F0085EC83 /* Size.c */,
+				1444A98A1B7B6F1F0085EC83 /* strcnt.c */,
+				1444A98B1B7B6F1F0085EC83 /* tactic.c */,
+				1444A98C1B7B6F1F0085EC83 /* varma.c */,
+				1444A9B01B7BA09C0085EC83 /* itoa.c */,
+				141D69561DA250D6000F772D /* touch.c */,
+				141D69571DA250D6000F772D /* touch.h */,
+				1455A6001D37B538005780D7 /* config.c */,
+			);
+			name = src;
+			path = ../src;
+			sourceTree = "<group>";
+		};
+		1444A94A1B7B6F1F0085EC83 /* baye */ = {
+			isa = PBXGroup;
+			children = (
+				141D69521D8D3260000F772D /* script.h */,
+				141D694D1D8CD20D000F772D /* bind-objects.h */,
+				141D69481D8CD17F000F772D /* data-bind.h */,
+				142D1C191D21897600CA443B /* itoa.h */,
+				1444A94B1B7B6F1F0085EC83 /* attribute.h */,
+				1444A94C1B7B6F1F0085EC83 /* comm.h */,
+				1444A94D1B7B6F1F0085EC83 /* compa.h */,
+				1444A94E1B7B6F1F0085EC83 /* consdef.h */,
+				1444A94F1B7B6F1F0085EC83 /* datman.h */,
+				1444A9501B7B6F1F0085EC83 /* enghead.h */,
+				1444A9511B7B6F1F0085EC83 /* errcode.h */,
+				1444A9521B7B6F1F0085EC83 /* extern.h */,
+				1444A9531B7B6F1F0085EC83 /* fight.h */,
+				1444A9541B7B6F1F0085EC83 /* fsys.h */,
+				1444A9551B7B6F1F0085EC83 /* fundec.h */,
+				1444A9561B7B6F1F0085EC83 /* fundef.h */,
+				1444A9571B7B6F1F0085EC83 /* graph.h */,
+				1444A9581B7B6F1F0085EC83 /* order.h */,
+				1444A9591B7B6F1F0085EC83 /* paccount.h */,
+				1444A95A1B7B6F1F0085EC83 /* resource.h */,
+				1444A95B1B7B6F1F0085EC83 /* sconst.h */,
+				1444A95C1B7B6F1F0085EC83 /* sharefun.h */,
+				1444A95D1B7B6F1F0085EC83 /* sources.h */,
+				1444A95E1B7B6F1F0085EC83 /* stdsys.h */,
+			);
+			path = baye;
+			sourceTree = "<group>";
+		};
+		1444A9671B7B6F1F0085EC83 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				1444A9681B7B6F1F0085EC83 /* pconst.h */,
+				1444A9691B7B6F1F0085EC83 /* pstring.h */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		1444A9731B7B6F1F0085EC83 /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				1444A9741B7B6F1F0085EC83 /* ADDR.H */,
+				1444A9751B7B6F1F0085EC83 /* DictAfx.h */,
+				1444A9761B7B6F1F0085EC83 /* DictHelp.h */,
+				1444A9771B7B6F1F0085EC83 /* dictsys.h */,
+				1444A9781B7B6F1F0085EC83 /* filetype.h */,
+				1444A9791B7B6F1F0085EC83 /* flash.h */,
+				1444A97A1B7B6F1F0085EC83 /* fsys.h */,
+				1444A97B1B7B6F1F0085EC83 /* GuiEdit.h */,
+				1444A97C1B7B6F1F0085EC83 /* keytable.h */,
+				1444A97D1B7B6F1F0085EC83 /* MEM.H */,
+				1444A97E1B7B6F1F0085EC83 /* shell.h */,
+				1444A97F1B7B6F1F0085EC83 /* STDLIB.H */,
+				1444A9801B7B6F1F0085EC83 /* SysResv.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		1444A9A81B7B79D10085EC83 /* platform */ = {
+			isa = PBXGroup;
+			children = (
+				142D1CE81D22A3CC00CA443B /* js */,
+				142D1CE31D22A3BA00CA443B /* common */,
+				1444A9A91B7B79D10085EC83 /* ios */,
+			);
+			path = platform;
+			sourceTree = "<group>";
+		};
+		1444A9A91B7B79D10085EC83 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				1444A9AA1B7B79D10085EC83 /* fsys.c */,
+				1437473C1B7CBC2300939571 /* sem.m */,
+				143747B71B7E7AFB00939571 /* timer.m */,
+				141D69531D9EABA6000F772D /* dummy-script.c */,
+				14CEE7751DD2037300191612 /* sys-ios.c */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		148718691B7FB0C000AC88EB /* Baye-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1487186E1B7FB0C000AC88EB /* AppDelegate.h */,
+				1487186F1B7FB0C000AC88EB /* AppDelegate.m */,
+				148718711B7FB0C000AC88EB /* ViewController.h */,
+				148718721B7FB0C000AC88EB /* ViewController.m */,
+				148718741B7FB0C000AC88EB /* Main.storyboard */,
+				148718771B7FB0C000AC88EB /* Images.xcassets */,
+				1487186A1B7FB0C000AC88EB /* Supporting Files */,
+				1487188E1B7FB47600AC88EB /* GamLCDView.h */,
+				1487188F1B7FB47600AC88EB /* GamLCDView.m */,
+				14E568F01B8494C800CAE666 /* GamTouchPadView.h */,
+				14E568F11B8494C800CAE666 /* GamTouchPadView.m */,
+			);
+			path = "Baye-iOS";
+			sourceTree = "<group>";
+		};
+		1487186A1B7FB0C000AC88EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1487186B1B7FB0C000AC88EB /* Info.plist */,
+				1487186C1B7FB0C000AC88EB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1437474A1B7E67C900939571 /* Baye-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 143747681B7E67C900939571 /* Build configuration list for PBXNativeTarget "Baye-Mac" */;
+			buildPhases = (
+				143747471B7E67C900939571 /* Sources */,
+				143747481B7E67C900939571 /* Frameworks */,
+				143747491B7E67C900939571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Baye-Mac";
+			productName = Baye;
+			productReference = 1437474B1B7E67C900939571 /* Baye-Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		148718671B7FB0C000AC88EB /* Baye-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1487188C1B7FB0C000AC88EB /* Build configuration list for PBXNativeTarget "Baye-iOS" */;
+			buildPhases = (
+				148718641B7FB0C000AC88EB /* Sources */,
+				148718651B7FB0C000AC88EB /* Frameworks */,
+				148718661B7FB0C000AC88EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Baye-iOS";
+			productName = "Baye-iOS";
+			productReference = 148718681B7FB0C000AC88EB /* Baye-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1444A9371B7B6EE60085EC83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				TargetAttributes = {
+					1437474A1B7E67C900939571 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					148718671B7FB0C000AC88EB = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 1444A93A1B7B6EE60085EC83 /* Build configuration list for PBXProject "baye-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1444A9361B7B6EE60085EC83;
+			productRefGroup = 1444A9421B7B6EFE0085EC83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1437474A1B7E67C900939571 /* Baye-Mac */,
+				148718671B7FB0C000AC88EB /* Baye-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		143747491B7E67C900939571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143747581B7E67C900939571 /* Images.xcassets in Resources */,
+				14E568F41B84A10800CAE666 /* font.bin in Resources */,
+				1437475B1B7E67C900939571 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148718661B7FB0C000AC88EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148718761B7FB0C000AC88EB /* Main.storyboard in Resources */,
+				148718DC1B803BE100AC88EB /* font.bin in Resources */,
+				148718781B7FB0C000AC88EB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		143747471B7E67C900939571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1437476E1B7E68C300939571 /* fsys.c in Sources */,
+				143747701B7E68C300939571 /* sem.m in Sources */,
+				143747BA1B7E808700939571 /* timer.m in Sources */,
+				148718631B7F821B00AC88EB /* LCDView.m in Sources */,
+				140939091F07436100802015 /* version.c in Sources */,
+				141D69461D8CD137000F772D /* data-bind.c in Sources */,
+				143747891B7E68C300939571 /* citycmd.c in Sources */,
+				1437478A1B7E68C300939571 /* citycmdb.c in Sources */,
+				1437478B1B7E68C300939571 /* citycmdc.c in Sources */,
+				1437478C1B7E68C300939571 /* citycmdd.c in Sources */,
+				1437478D1B7E68C300939571 /* citycmde.c in Sources */,
+				141D694B1D8CD1E9000F772D /* bind-objects.c in Sources */,
+				1455A6011D37B538005780D7 /* config.c in Sources */,
+				1437478E1B7E68C300939571 /* cityedit.c in Sources */,
+				1437478F1B7E68C300939571 /* comIn.c in Sources */,
+				143747901B7E68C300939571 /* comOut.c in Sources */,
+				14585C751D26C04F00DCE3BA /* main.m in Sources */,
+				143747931B7E68C300939571 /* datman.c in Sources */,
+				143747941B7E68C300939571 /* debug.c in Sources */,
+				143747951B7E68C300939571 /* FgtCount.c in Sources */,
+				143747961B7E68C300939571 /* FgtPkAi.c in Sources */,
+				143747971B7E68C300939571 /* Fight.c in Sources */,
+				143747981B7E68C300939571 /* FightSub.c in Sources */,
+				1437479A1B7E68C300939571 /* gamEng.c in Sources */,
+				142D1CEE1D22B82800CA443B /* gui.c in Sources */,
+				141D69581DA250D6000F772D /* touch.c in Sources */,
+				143747A91B7E68C300939571 /* infdeal.c in Sources */,
+				143747AB1B7E68C300939571 /* paccount.c in Sources */,
+				141D69541D9EABA6000F772D /* dummy-script.c in Sources */,
+				141D695C1DA25C9A000F772D /* baye-wrapper-mac.c in Sources */,
+				143747AF1B7E68C300939571 /* PublicFun.c in Sources */,
+				143747B01B7E68C300939571 /* showface.c in Sources */,
+				143747B11B7E68C300939571 /* Size.c in Sources */,
+				143747B21B7E68C300939571 /* strcnt.c in Sources */,
+				14CEE7761DD2037300191612 /* sys-ios.c in Sources */,
+				142D1CE61D22A3BA00CA443B /* bios.c in Sources */,
+				143747B31B7E68C300939571 /* tactic.c in Sources */,
+				143747B41B7E68C300939571 /* varma.c in Sources */,
+				142D1CE71D22A3BA00CA443B /* sys.c in Sources */,
+				143747B51B7E68C300939571 /* itoa.c in Sources */,
+				143747561B7E67C900939571 /* MacViewController.m in Sources */,
+				143747511B7E67C900939571 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148718641B7FB0C000AC88EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14585C771D26CA8A00DCE3BA /* bios.c in Sources */,
+				14585C761D26CA8700DCE3BA /* gui.c in Sources */,
+				148718911B7FB87D00AC88EB /* fsys.c in Sources */,
+				148718931B7FB87D00AC88EB /* sem.m in Sources */,
+				1409390A1F07436100802015 /* version.c in Sources */,
+				148718971B7FB87D00AC88EB /* timer.m in Sources */,
+				148718AD1B7FB87D00AC88EB /* citycmd.c in Sources */,
+				148718AE1B7FB87D00AC88EB /* citycmdb.c in Sources */,
+				148718AF1B7FB87D00AC88EB /* citycmdc.c in Sources */,
+				148718B01B7FB87D00AC88EB /* citycmdd.c in Sources */,
+				148718B11B7FB87D00AC88EB /* citycmde.c in Sources */,
+				148718B21B7FB87D00AC88EB /* cityedit.c in Sources */,
+				14E568F21B8494C800CAE666 /* GamTouchPadView.m in Sources */,
+				141D69471D8CD137000F772D /* data-bind.c in Sources */,
+				14585C781D26CA8D00DCE3BA /* sys.c in Sources */,
+				148718B31B7FB87D00AC88EB /* comIn.c in Sources */,
+				148718B41B7FB87D00AC88EB /* comOut.c in Sources */,
+				141D694C1D8CD1E9000F772D /* bind-objects.c in Sources */,
+				148718B71B7FB87D00AC88EB /* datman.c in Sources */,
+				148718B81B7FB87D00AC88EB /* debug.c in Sources */,
+				148718B91B7FB87D00AC88EB /* FgtCount.c in Sources */,
+				148718BA1B7FB87D00AC88EB /* FgtPkAi.c in Sources */,
+				148718BB1B7FB87D00AC88EB /* Fight.c in Sources */,
+				148718BC1B7FB87D00AC88EB /* FightSub.c in Sources */,
+				148718BE1B7FB87D00AC88EB /* gamEng.c in Sources */,
+				148718CD1B7FB87D00AC88EB /* infdeal.c in Sources */,
+				148718CE1B7FB87D00AC88EB /* paccount.c in Sources */,
+				14CEE7771DD2037300191612 /* sys-ios.c in Sources */,
+				148718D01B7FB87D00AC88EB /* PublicFun.c in Sources */,
+				148718D11B7FB87D00AC88EB /* showface.c in Sources */,
+				148718D21B7FB87D00AC88EB /* Size.c in Sources */,
+				148718D31B7FB87D00AC88EB /* strcnt.c in Sources */,
+				141D69591DA250D6000F772D /* touch.c in Sources */,
+				148718D41B7FB87D00AC88EB /* tactic.c in Sources */,
+				148718D51B7FB87D00AC88EB /* varma.c in Sources */,
+				148718D61B7FB87D00AC88EB /* itoa.c in Sources */,
+				141D69551D9EABA6000F772D /* dummy-script.c in Sources */,
+				1455A6021D37B538005780D7 /* config.c in Sources */,
+				148718901B7FB47600AC88EB /* GamLCDView.m in Sources */,
+				148718731B7FB0C000AC88EB /* ViewController.m in Sources */,
+				148718701B7FB0C000AC88EB /* AppDelegate.m in Sources */,
+				1487186D1B7FB0C000AC88EB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		143747591B7E67C900939571 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1437475A1B7E67C900939571 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		148718741B7FB0C000AC88EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				148718751B7FB0C000AC88EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		143747691B7E67C900939571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${PROJECT_DIR}/../src",
+					"${PROJECT_DIR}/../submodules/msgpack-c/include",
+				);
+				INFOPLIST_FILE = Baye/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1437476A1B7E67C900939571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${PROJECT_DIR}/../src",
+					"${PROJECT_DIR}/../submodules/msgpack-c/include",
+				);
+				INFOPLIST_FILE = Baye/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1444A93B1B7B6EE60085EC83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		1444A93C1B7B6EE60085EC83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		148718881B7FB0C000AC88EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${PROJECT_DIR}/../src",
+				);
+				INFOPLIST_FILE = "Baye-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		148718891B7FB0C000AC88EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${PROJECT_DIR}/../src",
+				);
+				INFOPLIST_FILE = "Baye-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "09f93a9e-d841-4cdb-a87f-5d2d31b21d6d";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		143747681B7E67C900939571 /* Build configuration list for PBXNativeTarget "Baye-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				143747691B7E67C900939571 /* Debug */,
+				1437476A1B7E67C900939571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1444A93A1B7B6EE60085EC83 /* Build configuration list for PBXProject "baye-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1444A93B1B7B6EE60085EC83 /* Debug */,
+				1444A93C1B7B6EE60085EC83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1487188C1B7FB0C000AC88EB /* Build configuration list for PBXNativeTarget "Baye-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148718881B7FB0C000AC88EB /* Debug */,
+				148718891B7FB0C000AC88EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1444A9371B7B6EE60085EC83 /* Project object */;
+}

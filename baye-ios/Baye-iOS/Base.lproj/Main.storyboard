@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IJy-Sx-Wzm">
+                                <rect key="frame" x="4" y="228" width="313" height="205"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pMn-ka-XaB" customClass="GamTouchPadView">
+                                        <rect key="frame" x="20" y="8" width="217" height="135"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <gestureRecognizers/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9CQ-TX-Lxk">
+                                        <rect key="frame" x="245" y="61" width="48" height="42"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="查找">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="searchAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="gYl-Du-7gs"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qMt-NI-bhX">
+                                        <rect key="frame" x="20" y="151" width="273" height="47"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="返回">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="exitAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="lz6-IA-iBH"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kqb-Zn-iBy">
+                                        <rect key="frame" x="245" y="111" width="48" height="40"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="exitAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Daq-j5-M21"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="094-Iz-bKD">
+                                        <rect key="frame" x="245" y="8" width="48" height="45"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="帮助">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="helpAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="DRs-Gh-jDe"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="313" id="ViC-7f-vbK"/>
+                                    <constraint firstAttribute="height" constant="205" id="hxl-jt-YLm"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i0g-9K-iZJ" userLabel="LCDView" customClass="GamLCDView">
+                                <rect key="frame" x="0.0" y="20" width="320" height="192"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="i0g-9K-iZJ" secondAttribute="height" multiplier="160:96" placeholder="YES" id="cYU-J2-gKC"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U1z-LK-Kha">
+                                <rect key="frame" x="26" y="443" width="56.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2NA-40-YVt">
+                                <rect key="frame" x="205" y="434" width="46" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="Cd5-jo-Tes"/>
+                                    <constraint firstAttribute="width" constant="46" id="gXa-6S-KJ9"/>
+                                </constraints>
+                                <state key="normal" title="反馈">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="feedbackAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="VVg-QA-AE5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V5z-vq-tha">
+                                <rect key="frame" x="258" y="434" width="46" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="5Dv-VL-IoT"/>
+                                    <constraint firstAttribute="width" constant="46" id="jqb-mg-yG8"/>
+                                </constraints>
+                                <state key="normal" title="源码">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sourceAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="VSE-uG-oRy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ZN-OE-c7C">
+                                <rect key="frame" x="147" y="434" width="49" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="49" id="8M4-et-Iqq"/>
+                                    <constraint firstAttribute="height" constant="39" id="xlH-Go-oHM"/>
+                                </constraints>
+                                <state key="normal" title="新版本">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="versionAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="y31-DX-Aqc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="i0g-9K-iZJ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="6Qh-Hy-pda"/>
+                            <constraint firstItem="U1z-LK-Kha" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="10" id="7OL-ud-Ivy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="IJy-Sx-Wzm" secondAttribute="trailing" constant="-13" id="8h7-9G-2UI"/>
+                            <constraint firstItem="i0g-9K-iZJ" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="9jX-fs-YeD"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="2NA-40-YVt" secondAttribute="trailing" constant="53" id="Bsn-II-gjn"/>
+                            <constraint firstItem="IJy-Sx-Wzm" firstAttribute="top" secondItem="i0g-9K-iZJ" secondAttribute="bottom" constant="16" id="F4t-Ac-aNv"/>
+                            <constraint firstAttribute="trailing" secondItem="i0g-9K-iZJ" secondAttribute="trailing" id="Iwb-f1-Mi4"/>
+                            <constraint firstItem="2NA-40-YVt" firstAttribute="top" secondItem="IJy-Sx-Wzm" secondAttribute="bottom" constant="1" id="OFk-zj-RsG"/>
+                            <constraint firstItem="V5z-vq-tha" firstAttribute="top" secondItem="IJy-Sx-Wzm" secondAttribute="bottom" constant="1" id="Ty5-bD-R7M"/>
+                            <constraint firstItem="2NA-40-YVt" firstAttribute="leading" secondItem="0ZN-OE-c7C" secondAttribute="trailing" constant="9" id="Vwc-wb-0OM"/>
+                            <constraint firstItem="2NA-40-YVt" firstAttribute="top" secondItem="0ZN-OE-c7C" secondAttribute="top" id="edQ-x2-aHo"/>
+                            <constraint firstItem="V5z-vq-tha" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="irb-jQ-fK6"/>
+                            <constraint firstItem="U1z-LK-Kha" firstAttribute="top" secondItem="IJy-Sx-Wzm" secondAttribute="bottom" constant="10" id="tgl-qI-iPG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lcdView" destination="i0g-9K-iZJ" id="IJg-hF-MaH"/>
+                        <outlet property="touchPanelView" destination="pMn-ka-XaB" id="Bei-qO-iFT"/>
+                        <outlet property="versionLabel" destination="U1z-LK-Kha" id="GvS-Eq-014"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="134"/>
+        </scene>
+    </scenes>
+</document>

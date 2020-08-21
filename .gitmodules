@@ -1,0 +1,9 @@
+[submodule "js/web"]
+	path = js/web
+	url = git@git.oschina.net:bgwp/baye.git
+[submodule "js/engine"]
+	path = js/baye-engine
+	url = git@git.oschina.net:bgwp/baye-engine.git
+[submodule "submodules/msgpack-c"]
+	path = submodules/msgpack-c
+	url = https://github.com/msgpack/msgpack-c.git
